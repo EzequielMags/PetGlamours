@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="/js/api.js" defer></script>
+    <script type="module" src="/js/ui.js" defer></script>
+    <script type="module" src="/js/main.js" defer></script>
+    <title>PetGlamours🐶</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="container_logo">
+            <img src="img/pets.svg" alt="pata pet">
+            <h3>
+                Petshop Glamours
+            </h3>
+            <img src="img/pets.svg" alt="pata pet">
+        </nav>
+    </header>
+    <section class="banners">
+        <img src="img/dogpet.svg" alt="Cachorro caramelo">
+
+        <h2>
+            "Cuidado e estilo para o seu PET com todo glamours!"
+        </h2>
+    </section>
+    <section class="principal-pet">
+        <h2>
+            Adicione um PET novo:
+        </h2>
+
+        <form id="formulario-pets">
+          <input type="hidden" id="pet-id" />
+            <div>
+                <label for="">especie</label>
+                <input type="text" id="pet-especie" placeholder="Digite canina ou felina (aceitamos apenas esses dois)" required>
+            </div>
+            <div>
+                <label for="">nome</label>
+                <input type="text" id="pet-nome" placeholder="Digite o nome do seu pet" maxlength="16" required>
+            </div>
+            <div>
+                <label for="">raça</label>
+                <input type="text" id="pet-raca" placeholder="Digite a raça do seu pet" maxlength="16" required>
+            </div>
+
+            <div class="container__botoes">
+                <button class="botao__salvar">
+                    Salvar
+                </button>
+                <button class="botao__limpar">
+                    Limpar
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <hr>
+
+    <section class="principal_lista">
+        <h3>
+            Meus PET's
+        </h3>
+
+        <div class="container_lista">
+            <ul class="lista-pet" id="lista-pets">
+                
+                
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+        <h1>
+            Design e Code feito por Zzzz (Vulgo Ezequiel)
+        </h1>
+</body>
+</html>

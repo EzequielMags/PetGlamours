@@ -1,0 +1,52 @@
+{
+  "pets": [
+    {
+      "id": "1a2b",
+      "nome": "Pipoca",
+      "especie": "canina",
+      "raca": "chihuahua"
+    },
+    {
+      "id": "6f7g",
+      "especie": "canina",
+      "nome": "Bella",
+      "raca": "Bulldog"
+    },
+    {
+      "id": "7g8h",
+      "especie": "felina",
+      "nome": "Oscar",
+      "raca": "Bengal"
+    },
+    {
+      "id": "8h9i",
+      "especie": "canina",
+      "nome": "Lola",
+      "raca": "Poodle"
+    },
+    {
+      "id": "9i0j",
+      "especie": "felina",
+      "nome": "Nina",
+      "raca": "Sphynx"
+    },
+    {
+      "id": "0j1k",
+      "especie": "canina",
+      "nome": "Charlie",
+      "raca": "Golden Retriever"
+    },
+    {
+      "id": "4ca4",
+      "nome": "Joshua",
+      "especie": "felina",
+      "raca": "Bulldog"
+    },
+    {
+      "id": "31ff",
+      "nome": "frederico",
+      "especie": "canina",
+      "raca": "bulldog"
+    }
+  ]
+}
